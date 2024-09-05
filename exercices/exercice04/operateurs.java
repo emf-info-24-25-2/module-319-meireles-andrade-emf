@@ -21,7 +21,15 @@ public class Exercice04 {
         //on applique
         operateur-=2;
 
+        //après modification
+        System.out.println(operateur);
+
+        //avant modification
+        System.out.println(operateur);
+
         //
+
+        
 
     
 
