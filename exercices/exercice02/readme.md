@@ -35,4 +35,4 @@ Astuce: au lieu d'écrire toute la méthode `System.out.println`, dans VSCode, s
 
 - Testez votre programme. Pour cela, lancez le en faisant un clique droit sur le fichier `Exercice02.java` et en séléectionnant l'option `Run Java`.
 
-- Décrivez le résultat obtenu et résumez ce que vous avez fait dans votre RP.
+- Décrivez le résultat obtenu et résumez ce que vous avez fait dans votre RP. il affiche Bonjour le monde!
