@@ -8,10 +8,11 @@ public class EchangeValeurs {
         System.out.println("Le contenu de la variable 2 est " + variable2);
         System.out.println("...Traitement...");
         
+        variable1 = 2;
+        variable2 = 1;
        
-       
-
         System.out.println("Le contenu de la variable 1 est " + variable1);
+        System.out.println("Le contenu de la variable 1 est " + variable2);
 
         }
     }
