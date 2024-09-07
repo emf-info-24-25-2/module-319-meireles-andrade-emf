@@ -9,6 +9,7 @@ public class EchangeValeurs {
         variable2 = 1;
         System.out.println("Le contenu de la variable 1 est " + variable1);
         System.out.println("Le contenu de la variable 1 est " + variable2);
+        
         }
     }
 
