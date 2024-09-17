@@ -11,12 +11,12 @@ public class devoir02 {
          int reservoir1 = 0;
          int reservoir2 = 0;
 
-        Random random = new random();
-        int remplissage = random.nextInt(CapacitéReservoir1 + CapacitéReservoir2 + 1)
+         Random random = new Random();
+        int remplissage = random.nextInt(CapacitéReservoirA + CapacitéReservoirB + 1);
+        
 
-        while (CapacitéReservoirA => 3) {
-                System.out.println("Remplissage du réser");
-        } do 
+        while //j'ai pas trouvé une solution 
+
         
     }
 }
