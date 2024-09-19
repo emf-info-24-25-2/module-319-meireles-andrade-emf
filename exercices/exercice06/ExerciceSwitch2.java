@@ -1,7 +1,7 @@
 public class ExerciceSwitch2 {
     public static void main(String[] args) {
         
-        int age = 9;
+        int age = 10;
 
         if (age == 7) {
 
