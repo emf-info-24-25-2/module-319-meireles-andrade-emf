@@ -53,7 +53,7 @@ public class devoir03 {
             return;
         }
         
-        // Calcul pour du jour dans l'année
+        
         int jourDeLAn = 0;
         
         
