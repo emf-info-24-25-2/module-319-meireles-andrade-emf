@@ -30,7 +30,7 @@ public class ExercicesInversionTableau {
     // Méthode pour inverser un tableau d'entiers
     public static int[] inverseLeTableau(int[] tableau) {
         int[] tableauInverse = new int[tableau.length];
-        int j = tableau.length - 1;  // Index pour parcourir le tableau inversé
+        int j = tableau.length - 1; 
         
         for (int i = 0; i < tableau.length; i++) {
             tableauInverse[i] = tableau[j];
