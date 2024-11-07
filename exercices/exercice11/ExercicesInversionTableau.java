@@ -10,7 +10,7 @@ public class ExercicesInversionTableau {
         Int[] tableauInitial = new int[4];
         Random random = new Random();
         for (int i = 0; i < tableauInitial.length; i++) {
-            tableauInitial[i] = random.nextInt(MAX - MIN + 1) + MIN;
+            tableauInitial[i] = random.nextInt(MAX) + 1;
         }
         System.out.println("Contenu du tableau initial: ");
         for (int i=0; i< tableauInitial.length; i++) {
