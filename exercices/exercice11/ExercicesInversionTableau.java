@@ -1,6 +1,9 @@
-public class App {
-    
-    
+import java.security.PublicKey;
+
+public class ExercicesInversionTableau {
+
+    public static final int MIX = 0;
+    public static final int MAX = 100;
 
     public static void main(String[] args) {
         
@@ -36,4 +39,6 @@ public class App {
         
         return tableauInverse;
     }
+
+
 }
