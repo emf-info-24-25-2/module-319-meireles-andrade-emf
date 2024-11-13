@@ -18,6 +18,9 @@ public class devoir05 {
             // Comparer la valeur de l'utilisateur avec le nombre aléatoire
             if (valeur > nbreMystere) {
                 System.out.println("Trop grand, entrez un nouveau nombre :");
+                //RIF: avec ce sout, quand vous jouez, cela vous dira 2 fois d'entrer un nombre (car on recommence la boucle et il y a ce message)
+                // arrangez-vous pour que ça soit plus proche du résultat demandé dans la consigne.
+                // pensez aussi à compter le nombre de tentatives du joueur!
             } else if (valeur < nbreMystere) {
                 System.out.println("Trop petit, entrez un nouveau nombre :");
             } else {
