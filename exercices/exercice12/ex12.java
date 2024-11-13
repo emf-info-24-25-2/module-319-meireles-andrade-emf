@@ -29,6 +29,8 @@ public class ex12 {
         } else {
             System.out.println("La chaîne de caractère " + monPrenom + " ne contient pas test");
         }
+
+
     }
 
 }
