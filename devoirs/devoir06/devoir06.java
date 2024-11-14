@@ -55,23 +55,26 @@ public class devoir06 {
         return position;
     }
 
+    public static void main(String[] args) {
 
+        int[] exemple = genereTableau(12, 3, 19);
 
-public static void main(String[] args) {
-    
-    int[] exemple = genereTableau(12, 3, 19);
-    
-    int minimum= rechercheMin(exemple);
-    int positionMinimum = rechercheValeur(exemple, minimum);
-    System.out.println(positionMinimum);
-    
-    int maximum= rechercheMax(exemple);
-    int positionMaximum = rechercheMax(exemple, maximum);
-    System.out.println(positionMaximum);
+        int valeurRecherchee = 27;
+        
+        for (int z = 0; z < exemple.length; z++) {
+            System.out.println(exemple[z]);
+        }
 
-    rechercheValeur(exemple, 27);
-    System.out.println();
+        int minimum = rechercheMin(exemple);
+        int positionMinimum = rechercheValeur(exemple, minimum);
+        System.out.println("Le plus petite valeur trouvée est : " + positionMinimum);
 
-}
+        int maximum = rechercheMax(exemple);
+        int positionMaximum = rechercheValeur(exemple, maximum);
+        System.out.println("Le plus grang valeur toruvée est : " + positionMaximum);
 
+        int Valeur = rechercheValeur(exemple, valeurRecherchee);
+        System.out.println("Le nombre [" + valeurRecherchee + "] figure à la position [" + Valeur + "] du tableau");
+
+    }
 }
