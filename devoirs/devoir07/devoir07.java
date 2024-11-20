@@ -17,7 +17,7 @@ public class devoir07 {
         
         int position = -1;
 
-        int nombre = 12;
+        int valeur = 12;
 
         for (int f = 0; f < tableau.length; f++) {
             if (tableau[f] == nombre) {
@@ -33,10 +33,10 @@ public class devoir07 {
 
 
     int[] tableauVA = genererValeursAleatoires(TAILLE_TABLEAU, MIN_NOMBRE, MAX_NOMBRE);
-    
+    int nombre = 12;
     int valeurMin = positionValeur(tableauVA, MAX_NOMBRE);
     System.out.println("Le tableau d'entiers généré contient : " + TAILLE_TABLEAU +" valeurs");
     System.out.println("Les deux dernières valeurs sont : ");//je pas compris la phrase
-    System.out.println("Le valeur " + nombre + );
+    System.out.println("Le valeur " + valeur + "est dans la position"  + valeurMin);
     }
 }
