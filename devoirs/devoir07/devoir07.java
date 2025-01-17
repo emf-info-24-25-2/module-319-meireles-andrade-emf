@@ -40,3 +40,4 @@ public class devoir07 {
     System.out.println("Le valeur " + valeur + "est dans la position"  + valeurMin);
     }
 }
+
